@@ -1301,10 +1301,10 @@ algoliasearch-helper@^3.1.0:
   dependencies:
     events "^1.1.1"
 
-algoliasearch-helper@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.1.1.tgz#4cdfbaed6670d82626ac1fae001ccbf53192f497"
-  integrity sha512-Jkqlp8jezQRixf7sbQ2zFXHpdaT41g9sHBqT6pztv5nfDmg94K+pwesAy6UbxRY78IL54LIaV1FLttMtT+IzzA==
+algoliasearch-helper@^3.4.4:
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.4.4.tgz#f2eb46bc4d2f6fed82c7201b8ac4ce0a1988ae67"
+  integrity sha512-OjyVLjykaYKCMxxRMZNiwLp8CS310E0qAeIY2NaublcmLAh8/SL19+zYHp7XCLtMem2ZXwl3ywMiA32O9jszuw==
   dependencies:
     events "^1.1.1"
 
@@ -3585,13 +3585,13 @@ ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
-instantsearch.js@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.7.0.tgz#4062b98daf7278e51028d1453dc5d629cb708702"
-  integrity sha512-OkTcyHLcSu6eymWmVXsu2Tt0GRtkoRQXM+SCxj+nyvBY3y3hmGDjcb8bzkrACrhfR8SDbpEUiBGI1IUHjtvOGA==
+instantsearch.js@^4.20.0:
+  version "4.22.0"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.22.0.tgz#d28c7a2be6b399736f8f2edd6f59d474a0f661a4"
+  integrity sha512-IPjg/EwhDqFpvCJC1g3DF+i2cAr3SQZ9JPFhuKWC2apnGNfiFkPIQKvHx1pFTQm7FlZe262Xcpqi1ag1KVPGpA==
   dependencies:
     "@types/googlemaps" "^3.39.6"
-    algoliasearch-helper "^3.1.1"
+    algoliasearch-helper "^3.4.4"
     classnames "^2.2.5"
     events "^1.1.0"
     hogan.js "^3.0.2"
@@ -6530,9 +6530,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.19:
-  version "0.7.19"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
-  integrity sha512-T3PVJ6uz8i0HzPxOF9SWzWAlfN/DavlpQqepn22xgve/5QecC+XMCAtmUNnY7C9StehaV6exjUCI801lOI7QlQ==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-js@3.4.x:
   version "3.4.9"
@@ -6731,10 +6731,10 @@ vue-hot-reload-api@^2.3.0:
   integrity sha512-NpznMQoe/DzMG7nJjPkJKT7FdEn9xXfnntG7POfTmqnSaza97ylaBf1luZDh4IgV+vgUoR//id5pf8Ru+Ym+0g==
 
 "vue-instantsearch@file:../..":
-  version "3.2.0"
+  version "3.7.0"
   dependencies:
     algoliasearch-helper "^3.1.0"
-    instantsearch.js "^4.7.0"
+    instantsearch.js "^4.20.0"
 
 vue-loader@^15.6.2:
   version "15.6.2"
