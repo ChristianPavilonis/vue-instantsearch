@@ -1377,6 +1377,13 @@ algoliasearch-helper@^3.1.0, algoliasearch-helper@^3.1.1:
   dependencies:
     events "^1.1.1"
 
+algoliasearch-helper@^3.4.4:
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.4.4.tgz#f2eb46bc4d2f6fed82c7201b8ac4ce0a1988ae67"
+  integrity sha512-OjyVLjykaYKCMxxRMZNiwLp8CS310E0qAeIY2NaublcmLAh8/SL19+zYHp7XCLtMem2ZXwl3ywMiA32O9jszuw==
+  dependencies:
+    events "^1.1.1"
+
 algoliasearch@^4.0.1:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-4.2.0.tgz#dd81a1a0c57eb9f74af6db70b0c11f256692d1e6"
@@ -4250,12 +4257,13 @@ inquirer@^3.0.6:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
-instantsearch.js@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.5.0.tgz#6777df96ea2ccaa330dd3b6cfaee378be643e29f"
-  integrity sha512-i1z+tK8r0qVpEh7fRNqeX/BWUOdsfyIgsqL74CkVIRNUE6CMnAjz6MujtiBVtfyeimpHYzQESp0NxQ8ZRpk88g==
+instantsearch.js@^4.20.0:
+  version "4.22.0"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.22.0.tgz#d28c7a2be6b399736f8f2edd6f59d474a0f661a4"
+  integrity sha512-IPjg/EwhDqFpvCJC1g3DF+i2cAr3SQZ9JPFhuKWC2apnGNfiFkPIQKvHx1pFTQm7FlZe262Xcpqi1ag1KVPGpA==
   dependencies:
-    algoliasearch-helper "^3.1.1"
+    "@types/googlemaps" "^3.39.6"
+    algoliasearch-helper "^3.4.4"
     classnames "^2.2.5"
     events "^1.1.0"
     hogan.js "^3.0.2"
@@ -4263,12 +4271,11 @@ instantsearch.js@^4.5.0:
     prop-types "^15.5.10"
     qs "^6.5.1"
 
-instantsearch.js@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.7.0.tgz#4062b98daf7278e51028d1453dc5d629cb708702"
-  integrity sha512-OkTcyHLcSu6eymWmVXsu2Tt0GRtkoRQXM+SCxj+nyvBY3y3hmGDjcb8bzkrACrhfR8SDbpEUiBGI1IUHjtvOGA==
+instantsearch.js@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.5.0.tgz#6777df96ea2ccaa330dd3b6cfaee378be643e29f"
+  integrity sha512-i1z+tK8r0qVpEh7fRNqeX/BWUOdsfyIgsqL74CkVIRNUE6CMnAjz6MujtiBVtfyeimpHYzQESp0NxQ8ZRpk88g==
   dependencies:
-    "@types/googlemaps" "^3.39.6"
     algoliasearch-helper "^3.1.1"
     classnames "^2.2.5"
     events "^1.1.0"
@@ -4862,9 +4869,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.3.0:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -7813,10 +7820,10 @@ vue-hot-reload-api@^2.3.0:
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
 "vue-instantsearch@file:../..":
-  version "3.2.0"
+  version "3.7.0"
   dependencies:
     algoliasearch-helper "^3.1.0"
-    instantsearch.js "^4.7.0"
+    instantsearch.js "^4.20.0"
 
 vue-loader@^15.7.0:
   version "15.9.2"
